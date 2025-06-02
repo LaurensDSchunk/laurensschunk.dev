@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col items-center min-h-[100dvh]`}
       >
         <Navbar />
-        <div className="max-w-4xl w-full lg:border-x-1 border-x-black h-full min-h-[calc(100dvh-41px)]">
+        <div className="max-w-4xl w-full pageborder:border-x-1 border-x-black h-full min-h-[calc(100dvh-var(--navbar-height))]">
           {children}
         </div>
         <Footer />
