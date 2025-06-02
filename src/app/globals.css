@@ -58,12 +58,3 @@ body {
 @utility br {
   @apply border-r-1 border-r-black;
 }
-
-@keyframes navbarMenu {
-  from {
-    height: 0;
-  }
-  to {
-    height: 10px;
-  }
-}

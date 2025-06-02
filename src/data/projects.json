@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "miniflashcards",
+    "title": "Mini Flashcards",
+    "summary": "A minimalist flashcard app",
+    "technologies": [
+      "Nuxt",
+      "Vue.js",
+      "Supabase",
+      "PostgreSQL",
+      "Typescript",
+      "AWS SES"
+    ],
+    "liveUrl": "https://miniflashcards.com",
+    "formattedUrl": "miniflashcards.com",
+    "description": "Frustrated by the amount of ads on Quizlet, I decided to create my own flashcard application. Through this project, I learned about SQL databases, authentification with Supabase, and Amazon's Simple Email Service (SES)."
+  },
+  {
+    "slug": "dolce-sicilia-bakery",
+    "title": "Dolce Sicilia Italian Bakery Website",
+    "summary": "A wesbite for a local bakery.",
+    "technologies": ["Vue.js", "Vite", "Vercel Blob Storage"],
+    "liveUrl": "https://www.dolcesiciliaitalianbakery.com",
+    "formattedUrl": "dolcesiciliaitalianbakery.com",
+    "description": "I created this for a bakery in Wheatridge, Colorado. He requested a place to put information about his bakery as well as a photo gallery. Using Vercel Blob Storage, I created a gallery that he could upload images to. This was my first time optimizing SEO and I was very pleased to achive thousands of visits and impressions."
+  }
+]

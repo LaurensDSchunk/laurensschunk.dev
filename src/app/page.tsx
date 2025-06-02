@@ -18,7 +18,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="grid grid-cols-2 grid-rows-[auto_1fr_1fr] max-homewrap:grid-rows-[auto_auto_minmax(4rem,1fr)] min-h-[calc(100dvh-var(--navbar-height))] w-full ">
+    <div className="grid grid-cols-2 grid-rows-[auto_auto_auto_1fr] max-homewrap:grid-rows-[auto_auto_minmax(4rem,1fr)] min-h-[calc(100dvh-var(--navbar-height))] w-full ">
       <div className="col-start-1 col-end-3 row-start-1">
         <Marquee autoFill={true} direction={"right"}>
           <h1 className="text-8xl px-5">Laurens</h1>
@@ -43,10 +43,10 @@ export default function Home() {
         </Marquee>
       </div>
 
-      <div className="px-3 py-2 col-start-1 col-end-2 row-start-2 row-end-4 max-homewrap:row-end-3 max-homewrap:col-end-3 bt br">
+      <div className="px-3 py-2 col-start-1 col-end-2 row-start-2 row-end-5 max-homewrap:row-end-3 max-homewrap:col-end-3 bt br">
         <h2 className="text-lg font-bold">About</h2>
         <p>
-          I am a student in Denver, Colorado interested in computer science and
+          I am a student in Denver Colorado interested in computer science and
           robotics. This website contains a few of my completed projects that I
           want to share.
           <br />
@@ -56,11 +56,14 @@ export default function Home() {
       </div>
       <Link
         href="/portfolio"
-        className="grid-btn col-start-2 row-start-2 bt max-homewrap:row-start-3 max-homewrap:col-start-1 max-homewrap:br"
+        className="grid-btn col-start-2 min-h-30 row-start-2 bt max-homewrap:row-start-3 max-homewrap:col-start-1 max-homewrap:br"
       >
         Portfolio
       </Link>
-      <Link href="/contact" className="grid-btn col-start-2 row-start-3 bt">
+      <Link
+        href="/contact"
+        className="grid-btn col-start-2 min-h-30 row-start-3 bt homewrap:bb"
+      >
         Contact
       </Link>
     </div>
