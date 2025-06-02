@@ -36,8 +36,8 @@ export default function Navbar() {
   }, [open]);
 
   return (
-    <div className="sticky top-0 left-0 w-full z-100 flex items-center justify-center bg-background">
-      <div className="px-3 py-1 w-full max-w-4xl flex flex-row justify-between items-center bg-background z-100 bb">
+    <div className="sticky top-0 left-0 w-full z-100 flex items-center justify-center bb bg-background">
+      <div className="px-3 py-1 w-full max-w-4xl flex flex-row justify-between items-center bg-background z-100">
         <div className="w-full">
           <Link href="/" className="text-2xl font-bold max-navbar:text-3xl">
             Laurens Schunk
@@ -67,6 +67,7 @@ export default function Navbar() {
         origin-top
         transition-transform duration-300 ease-in-out
         ${open ? "scale-y-100 bb" : "scale-y-0"}
+        navbar:scale-y-0
         transform
         absolute top-[var(--navbar-height)] left-0 w-full bg-background z-50
         flex flex-col gap-3 py-3 items-center

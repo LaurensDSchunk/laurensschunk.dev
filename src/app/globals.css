@@ -15,7 +15,13 @@
 
   --breakpoint-pageborder: 896px;
   --breakpoint-homewrap: 540px;
-  --breakpoint-navbar: 440px;
+  --breakpoint-navbar: 440;
+}
+
+@media (max-width: 439px) {
+  :root {
+    --navbar-height: 45px;
+  }
 }
 
 /*
