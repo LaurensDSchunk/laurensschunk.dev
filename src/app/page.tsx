@@ -18,7 +18,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="grid grid-cols-2 grid-rows-[auto_1fr_1fr] max-homewrap:grid-rows-[auto_auto_1fr] min-h-[calc(100dvh-var(--navbar-height))] w-full ">
+    <div className="grid grid-cols-2 grid-rows-[auto_1fr_1fr] max-homewrap:grid-rows-[auto_auto_minmax(4rem,1fr)] min-h-[calc(100dvh-var(--navbar-height))] w-full ">
       <div className="col-start-1 col-end-3 row-start-1">
         <Marquee autoFill={true} direction={"right"}>
           <h1 className="text-8xl px-5">Laurens</h1>
