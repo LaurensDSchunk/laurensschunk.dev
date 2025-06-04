@@ -1,5 +1,7 @@
 import projects from "@/data/projects.json";
 
+// TODO: add example images
+
 export async function generateStaticParams() {
   return projects.map((project) => ({
     slug: project.slug,
