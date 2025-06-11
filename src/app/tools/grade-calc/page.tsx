@@ -3,7 +3,7 @@
 import Head from "next/head";
 import { FormEvent, useRef } from "react";
 
-export default function gradeCalcPage() {
+export default function GradeCalcPage() {
   const currentRef = useRef<HTMLInputElement>(null);
   const desiredRef = useRef<HTMLInputElement>(null);
   const worthRef = useRef<HTMLInputElement>(null);
