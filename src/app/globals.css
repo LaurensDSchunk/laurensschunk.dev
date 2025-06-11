@@ -43,6 +43,10 @@ body {
   @apply flex justify-center items-center text-xl bg-background hover:bg-foreground text-foreground hover:text-background transition-colors;
 }
 
+.input {
+  @apply bb bt bl br outline-none px-1;
+}
+
 @utility bb {
   @apply border-b-1 border-b-black;
 }

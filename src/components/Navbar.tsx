@@ -36,7 +36,7 @@ export default function Navbar() {
   }, [open]);
 
   return (
-    <div className="sticky top-0 left-0 w-full z-100 flex items-center justify-center bb bg-background">
+    <nav className="sticky top-0 left-0 w-full z-100 flex items-center justify-center bb bg-background">
       <div className="px-3 py-1 w-full max-w-4xl flex flex-row justify-between items-center bg-background z-100">
         <div className="w-full">
           <Link href="/" className="text-2xl font-bold max-navbar:text-3xl">
@@ -88,6 +88,6 @@ export default function Navbar() {
           Contact
         </Link>
       </div>
-    </div>
+    </nav>
   );
 }
