@@ -43,7 +43,7 @@ export default function Home() {
         </Marquee>
       </div>
 
-      <div className="px-3 py-2 col-start-1 col-end-2 row-start-2 row-end-5 max-homewrap:row-end-3 max-homewrap:col-end-3 bt br">
+      <main className="px-3 py-2 col-start-1 col-end-2 row-start-2 row-end-5 max-homewrap:row-end-3 max-homewrap:col-end-3 bt br">
         <h2 className="text-lg font-bold">About</h2>
         <p>
           I am a student in Denver Colorado interested in computer science and
@@ -53,7 +53,7 @@ export default function Home() {
           <br />I am always looking to start new projects, so reach out to me if
           you want to see something made.
         </p>
-      </div>
+      </main>
       <Link
         href="/portfolio"
         className="grid-btn col-start-2 min-h-30 row-start-2 bt max-homewrap:row-start-3 max-homewrap:col-start-1 max-homewrap:br"

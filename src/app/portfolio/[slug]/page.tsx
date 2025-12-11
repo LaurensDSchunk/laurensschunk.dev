@@ -14,9 +14,11 @@ export default async function ProjectPage({ params }: { params: any }) {
   if (!project) return <div>Project not found</div>;
 
   return (
-    <div className="pt-2">
-      <h1 className="px-3 text-3xl font-semibold">{project.title}</h1>
-      <h2 className="px-3 text-xl pb-3">{project.summary}</h2>
+    <main className="pt-2">
+      <header>
+        <h1 className="px-3 text-3xl font-semibold">{project.title}</h1>
+        <h2 className="px-3 text-xl pb-3">{project.summary}</h2>
+      </header>
       <div className="bb bt">
         <div className="flex flex-row gap-x-3 flex-wrap px-3">
           <p className="font-bold">Technologies:</p>
@@ -36,6 +38,6 @@ export default async function ProjectPage({ params }: { params: any }) {
           {project.formattedUrl}
         </a>
       </p>
-    </div>
+    </main>
   );
 }

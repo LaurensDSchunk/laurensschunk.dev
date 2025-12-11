@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Laurens Schunk",
-  //description: "",
+  description: "Laurens Schunk's personal website.",
 };
 
 export default function RootLayout({
